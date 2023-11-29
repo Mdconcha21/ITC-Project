@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(jsbg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+.container::-webkit-scrollbar{
+    display: none;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+    color: #fff;
+    transition: transform 1s;
+    font-size: 50px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    font-size: 15px;
+}
+.home{
+    border-bottom:2px solid #fff;
+    border-radius: 2px;
+    padding: 5px;
+}
+.logo:hover{
+    font-size: 70px;
+}
+.icont{
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+}
+.logocont{
+    overflow: hidden;
+    transition: transform 0.3s ease-out;
+}
+.logox{
+    width: 20vh;
+    height: auto;
+}
+.logocont:hover{
+    transform: scale(1.2);
+}
+.aboutdesc{
+    color: #fff;
+    padding-left: 50px;
+    line-height: 40px;
+    width: 130vh;
+}
+.whoarewe{
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.whowearecont{
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    border-radius: 30px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+.whowearecont h1{
+}
+.mee{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    transition: transform 0.3s ease-out;
+    overflow: hidden;
+}
+.me{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+    height: 260px;
+}
+.mee:hover{
+    transform: scale(1.6);
+}
+.contact{
+    padding-top: 80px;
+    padding-left: 60px;
+    padding-right: 30px;
+    color: #fff;
+}
+.contact h1{
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.contact p{
+    font-size: 20px;
+}
+.contact a{
+    text-decoration: none;
+}
+.follow{
+    padding: 30px;
+    color: #fff;
+}
+.follow a{
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    font-size: 20px;
+}
+.follow p{
+    line-height: 35px;
+    padding: 30px;
+}
+.follow h1{
+    padding-bottom: 20px;
+}
+.socmeds{
+    display: flex;
+    justify-content: center;
+}
+.fa-facebook{
+    font-size: 40px;
+}
+.fa-github{
+    font-size: 40px;
+}
+.fa-instagram{
+    font-size: 40px;
+}
+footer{
+    color: rgba(255,255,255,0.2);
+}

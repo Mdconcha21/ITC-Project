@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Handjet">
+    <link rel="icon" type="image/x-icon" href="favicon-32x32.png">
+    <link rel="stylesheet" href="jspage11style.css">
+    <meta charset="UTF-8">
+    <title>JavaScript: Booleans & Comparisons</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <h1 class="logo">.Js</h1>
+            <div class="logodesc">.</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><div class="home"><a href="jspage.html">JavaScript</a></div></li>
+                    <li><a href="aboutpage.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="iicontainer">
+            <div class="lessoncontainer">
+                <div class="tcontent">
+                    <h1>Table:</h1>
+                    <ul>
+                        <li><a href="jspage.html">Welcome to Js</a></li>
+                        <li><a href="jspage2.html">JavaScript in HTML</a></li>
+                        <li><a href="jspage3.html">Simple Operations</a></li>
+                        <li><a href="jspage4.html">Variables</a></li>
+                        <li><a href="jspage5.html">Data Types</a></li>
+                        <li><a href="jspage6.html">Arithmetic Operators</a></li>
+                        <li><a href="jspage7.html">Assignment Operators</a></li>
+                        <li><a href="jspage8.html">Strings</a></li>
+                        <li><a href="jspage9.html">Template Literals</a></li>
+                        <li><a href="jspage10.html">String Concatenation</a></li>
+                        <li class="first"><a href="">Booleans & Comparisons</a></li>
+                        <li><a href="jspage12.html">If Statement</a></li>
+                        <li><a href="jspage13.html">Else If Statement</a></li>
+                        <li><a href="jspage14.html">Switch Statements</a></li>
+                        <li><a href="jspage15.html">Ternary Operators</a></li>
+                        <li><a href="jspage16.html">For Loop</a></li>
+                        <li><a href="jspage17.html">While Loop</a></li>
+                        <li><a href="jspage18.html">Break And Continue</a></li>
+                        <li><a href="jspage19.html">Functions</a></li>
+                        <li><a href="jspage20.html">Function Parameters</a></li>
+                        <li><a href="jspage21.html">Returning From Functions</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="content">
+                <div class="maincontent">
+                    <h1>Booleans</h1>
+                    <p>Do you remember the Boolean data type? Let's quickly recap what they are and then see them in action.
+
+                        The Boolean data types can only take the values true or false.</p>
+                    <img src="49th.png" alt="">
+                    <h1>Comparison Operators</h1>
+                    <p>
+                        Imagine that you are creating a game, and that your code should check if the player's score is above 99. Technically speaking, you need to evaluate whether the expression is true or false.
+                        
+                        Let's check it out:</p>
+                    <img src="50th.png" alt="">
+                    <p>> is a comparison operator, which compares the values and results in corresponding Boolean values - either true or false. So, in our case the result is false (or numerical 0).</p>
+                    <p>JavaScript has a number of comparison operators:</p>
+                    <p>equal to ==</p>
+                    <p>not equal to !=</p>
+                    <p>greater than ></p>
+                    <p>smaller than < </p>
+                    <p>greater or equal to >= </p>
+                    <p>smaller or equal to <= </p>
+                    <img src="51st.png" alt="">
+                    <p>
+                        Strict equality === comparison operator returns false for the values which are not of a similar type.
+                        
+                        For example:</p>
+                    <img src="52nd" alt="">
+                    <p>In the example above, x and y have equal values, but different types: x is a number, and y is a string. That's why == returns true, while the strict equality operators === returns false.</p>
+                    <p>Greater than and smaller than operators can also be used to compare strings lexicographically (where the alphabetical order of words is based on the alphabetical order of their component letters). 
+
+
+                        For example:</p>
+                    <img src="53rd.png" alt="">
+                    <h1>Lesson Takeaways</h1>
+                    <p>Let's summarize what you've just learned:</p>
+                    <p>comparison operators are used for evaluating whether an expression is true or false</p>
+                    <p>that expression results in a Boolean data type with values of either true or false</p>
+                    <p>the strict equality === comparison operator returns false for the values which are not of a similar type</p>
+                    <p>you can compare strings with comparison operators as well</p>
+                    <button type="button" id="directs">Next</button>
+                    <script>
+                        document.getElementById('directs').addEventListener('click', function() {
+                            window.location.href = 'jspage12.html';
+                        });
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>    
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Handjet">
+    <link rel="icon" type="image/x-icon" href="favicon-32x32.png">
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <h1 class="logo">.Js</h1>
+            <div class="logodesc">.</div>
+            <nav>
+                <ul class="list-container">
+                    <li class="list-item"><div class="home"><a href="">Home</a></div></li>
+                    <li class="list-item"><a href="jspage.html">JavaScript</a></li>
+                    <li class="list-item"><a href="aboutpage.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    
+
+        <div class="description">
+            <div class="col">
+                <h1>Hello World!</h1>
+                <p>In the realm of web design, JavaScript stands as a cornerstone technology, breathing life into static web pages and transforming them into dynamic, interactive experiences. If you're seeking to elevate your web development prowess, mastering JavaScript is an essential step.</p>
+                <br>
+                <p>Join Us on This JavaScript Odyssey Together, we'll transform you into a JavaScript maestro, capable of crafting captivating and responsive web experiences. As you progress through our tutorial, you'll gain the confidence and expertise to tackle real-world web development challenges.
+Embrace the power of JavaScript and embark on a journey of web development mastery.</p>
+                <button type="button" id="redirectButton">Lets go!</button>
+                <script>
+                    // Add a click event listener to the button
+                    document.getElementById('redirectButton').addEventListener('click', function() {
+                        // Redirect to jspage.html when the button is clicked
+                        window.location.href = 'jspage.html';
+                    });
+                </script>
+            </div>
+            <div class="col">
+                <div class="card html">
+                    <p></p>
+                </div>
+                <div class="card css">
+                    <p></p>
+                </div>
+                <div class="card js">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <footer><p> ® Mark Dennis Concha BSCSA2023</p> </footer>
+    </div>
+
+</body>
+</html>

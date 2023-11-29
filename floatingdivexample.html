@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floating Div on Hover</title>
+    <style>
+        /* Style for the container div */
+        .container {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            margin: 50px;
+        }
+
+        /* Style for the floating div */
+        .floating-div {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Show the floating div when hovering over the container */
+        .container:hover .floating-div {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Your content goes here -->
+
+<div class="container">
+    <!-- Content of the container div -->
+
+    <!-- Floating div that appears on hover -->
+    <div class="floating-div">
+        <!-- Content of the floating div -->
+        This is a floating div.
+    </div>
+</div>
+
+</body>
+</html>

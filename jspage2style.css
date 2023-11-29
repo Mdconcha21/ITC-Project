@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(jsbg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+    color: #fff;
+    transition: transform 1s;
+    font-size: 50px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    font-size: 15px;
+}
+.home{
+    border-bottom:2px solid #fff;
+    border-radius: 2px;
+    padding: 5px;
+}
+.logo:hover{
+    font-size: 70px;
+}
+.iicontainer{
+    width: 100%;
+    height: 85vh;
+    background: rgba(0,0,0,0.5);
+    border-radius: 30px;
+    display: flex;
+    box-sizing: border-box;
+}
+.lessoncontainer{
+    width: 20%;
+    height: 79vh;
+    background: rgba(255,255,255,0.5);
+    margin: 30px;
+    border-radius: 24px;
+    overflow-y: scroll;
+}
+.content{
+    width: 80%;
+    height: 76vh;
+    background: rgba(255,255,255,0.5);
+    margin: 30px;
+    border-radius: 24px;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+}
+
+.tcontent h1{
+    font-family: Handjet;
+    font-size: 50px;
+}
+.tcontent{
+    text-align: center;
+    padding: 10px;
+}
+.tcontent ul li{
+    line-height: 30px;
+}
+.tcontent a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+.tcontent a:hover{
+    text-decoration: underline;
+}
+.lessoncontainer::-webkit-scrollbar{
+    display: none;
+}
+.content h1{
+    font-size: 40px;
+}
+.content{
+    
+}
+.maincontent{
+    padding: 10px;
+}
+.maincontent p{
+    padding: 10px;
+    font-size: 18px;
+}
+.first{
+    background: rgb(179, 179, 179);
+    border-radius: 10px;
+    font-weight: bolder;
+}
+.maincontent img{
+    padding: 10px;
+}
+.content::-webkit-scrollbar{
+    display: none;
+}
+button{
+    width: 400px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: rgb(179, 179, 179);
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+button:hover{
+    background:#000;
+    color: rgb(179, 179, 179);
+}
+.maincontent img{
+    border-radius: 20px;
+}

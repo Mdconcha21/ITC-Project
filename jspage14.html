@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Handjet">
+    <link rel="icon" type="image/x-icon" href="favicon-32x32.png">
+    <link rel="stylesheet" href="jspage14style.css">
+    <meta charset="UTF-8">
+    <title>JavaScript: Switch Statement</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <h1 class="logo">.Js</h1>
+            <div class="logodesc">.</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><div class="home"><a href="jspage.html">JavaScript</a></div></li>
+                    <li><a href="aboutpage.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="iicontainer">
+            <div class="lessoncontainer">
+                <div class="tcontent">
+                    <h1>Table:</h1>
+                    <ul>
+                        <li><a href="jspage.html">Welcome to Js</a></li>
+                        <li><a href="jspage2.html">JavaScript in HTML</a></li>
+                        <li><a href="jspage3.html">Simple Operations</a></li>
+                        <li><a href="jspage4.html">Variables</a></li>
+                        <li><a href="jspage5.html">Data Types</a></li>
+                        <li><a href="jspage6.html">Arithmetic Operators</a></li>
+                        <li><a href="jspage7.html">Assignment Operators</a></li>
+                        <li><a href="jspage8.html">Strings</a></li>
+                        <li><a href="jspage9.html">Template Literals</a></li>
+                        <li><a href="jspage10.html">String Concatenation</a></li>
+                        <li><a href="jspage11.html">Booleans & Comparisons</a></li>
+                        <li><a href="jspage12.html">If Statement</a></li>
+                        <li><a href="jspage13.html">Else If Statement</a></li>
+                        <li class="first"><a href="">Switch Statements</a></li>
+                        <li><a href="jspage15.html">Ternary Operators</a></li>
+                        <li><a href="jspage16.html">For Loop</a></li>
+                        <li><a href="jspage17.html">While Loop</a></li>
+                        <li><a href="jspage18.html">Break And Continue</a></li>
+                        <li><a href="jspage19.html">Functions</a></li>
+                        <li><a href="jspage20.html">Function Parameters</a></li>
+                        <li><a href="jspage21.html">Returning From Functions</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="content">
+                <div class="maincontent">
+                    <h1>switch statement</h1>
+                    <p>Let's suppose you are creating a social media application, and you need to develop a menu where the user can choose the topic he is interested in marked by corresponding numbers.
+
+                        Let's see the switch statement in action here:</p>
+                    <img src="62nd.png" alt="">
+                    <p>The switch expression is evaluated once. The value of the expression is compared with the values of each case, and if there’s a match, that block of code is executed.</p>
+                    <h1>break statement</h1>
+                    <p>Imagine you have 10 boxes and there is a ball in one of them. If you find it in the 5th box, you don't need to check the other 5 boxes, right? After getting the ball you will just stop searching because you've already gotten what you need.
+
+                        The break statement does the same thing in the switch statement. It stops the execution of other cases when there is a match and the program just goes out from the switch statement.</p>
+                    <img src="63rd.png" alt="">
+                    <h1>The default keyword</h1>
+                    <p>
+                        Often there will be no match, but we still need the program to do some action. For this, we use the default keyword, which specifies the code to run if there’s no case match.
+                        
+                        Like this:</p>
+                    <img src="64th.png" alt="">
+                    <p>The default block can be omitted if there is no need to handle the case when no match is found.</p>
+                    <h1>Lesson Takeaways</h1>
+                    <p>Awesome, you learned something new!
+
+                        Let's summarize what you've just learned:</p>
+                    <p>The switch statement is used to perform different actions based on different conditions</p>
+                    <p>in some cases, especially when you need to compare values of an expression, the switch statement makes the code more readable</p>
+                    <p>use the break statement inside each case to stop the execution of other cases when there is a match</p>
+                    <p>the default keyword is used to perform an action when there is no match</p>
+                    <button type="button" id="directs">Next</button>
+                    <script>
+                        document.getElementById('directs').addEventListener('click', function() {
+                            window.location.href = 'jspage15.html';
+                        });
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
